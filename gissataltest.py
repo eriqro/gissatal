@@ -27,6 +27,6 @@ while igen:
         elif gissning<tal:
             print("Du måste gå högre!")
             totalg=totalg+1
-        elif int(gissning>tal):
+        elif gissning>tal:
             print("Du måste gå lägre!")
             totalg=totalg+1
